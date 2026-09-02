@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Diana ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Floating stars -->
+    <div class="stars">
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+        <span>·</span>
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+    </div>
+
+
+    <main class="container">
+
+        <div class="card">
+
+            <!-- PHOTO -->
+            <div class="photo-wrapper">
+                <div class="photo-ring">
+                    <img src="diana.jpg" alt="Diana">
+                </div>
+            </div>
+
+
+            <!-- INTRO -->
+            <section id="intro" class="page active">
+
+                <p class="tiny-text">A little something for you</p>
+
+                <h1>Diana</h1>
+
+                <p class="description">
+                    I wanted to make something<br>
+                    a little different for you.
+                </p>
+
+                <button class="main-btn" onclick="showPage('message')">
+                    Open ♡
+                </button>
+
+            </section>
+
+
+            <!-- MESSAGE -->
+            <section id="message" class="page">
+
+                <p class="tiny-text">Just a thought...</p>
+
+                <h2>
+                    Some people make<br>
+                    ordinary moments<br>
+                    feel special.
+                </h2>
+
+                <p class="description">
+                    And somehow, you became<br>
+                    one of those people.
+                </p>
+
+                <button class="main-btn" onclick="showPage('question')">
+                    Continue
+                </button>
+
+            </section>
+
+
+            <!-- QUESTION -->
+            <section id="question" class="page">
+
+                <p class="tiny-text">One last question</p>
+
+                <h2 class="question">
+                    Diana,<br>
+                    would you like to<br>
+                    be mine? ♡
+                </h2>
+
+                <div class="buttons">
+
+                    <button class="yes-btn" onclick="sayYes()">
+                        Yes ♡
+                    </button>
+
+                    <button class="maybe-btn" id="maybeButton">
+                        Maybe...
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- YES SCREEN -->
+            <section id="success" class="page">
+
+                <div class="big-heart">♡</div>
+
+                <h2>Yay, Diana!</h2>
+
+                <p class="description">
+                    That little answer just made<br>
+                    this page much happier. ♡
+                </p>
+
+                <div class="sparkles">
+                    ✦　♡　✦
+                </div>
+
+            </section>
+
+        </div>
+
+        <p class="footer">made with a little courage ♡</p>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
