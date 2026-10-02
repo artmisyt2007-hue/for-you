@@ -140,3 +140,12 @@ celebrationStyle.innerHTML = `
 `;
 
 document.head.appendChild(celebrationStyle);
+const memoryPage = document.getElementById("memoryPage");
+
+function showMemoryPage() {
+    document.querySelectorAll(".page").forEach(page => {
+        page.classList.add("hidden");
+    });
+
+    memoryPage.classList.remove("hidden");
+}
