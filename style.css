@@ -510,18 +510,18 @@ button {
         font-size: 31px;
     }
 
-} .memory-photo {
+} }
+
+.memory-photo {
     width: 230px;
     height: 230px;
     margin: 0 auto 25px;
     padding: 5px;
-
     border: 1px solid rgba(255,255,255,0.8);
     border-radius: 24px;
-
     overflow: hidden;
-
     box-shadow: 0 15px 45px rgba(0,0,0,0.35);
+}
 }
 
 .memory-photo img {
